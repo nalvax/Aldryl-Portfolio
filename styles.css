@@ -693,3 +693,21 @@ footer {
     transition:none!important
   }
 }
+
+/* Hero title: separate lines and keep E-Portfolio intact on every screen size. */
+.portfolio-title .title-name,
+.portfolio-title .title-kind {
+  display: block;
+}
+.portfolio-title .title-kind {
+  color: var(--accent);
+  font-size: clamp(40px, 5vw, 72px);
+  letter-spacing: -0.07em;
+  line-height: 1.12;
+  white-space: nowrap;
+}
+@media (max-width: 620px) {
+  .portfolio-title .title-kind {
+    font-size: clamp(37px, 10.5vw, 56px);
+  }
+}
