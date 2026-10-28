@@ -1,5 +1,8 @@
-'use strict'; // Editable content — TODO: confirm owner facts and add missing artifacts
-const skills={Frontend:['React','Next.js','TypeScript','JavaScript','Tailwind CSS'],Backend:['Node.js','Express','Django','Python','MongoDB','PostgreSQL','Redis','GraphQL','Prisma'],'DevOps & Infrastructure':['Docker','AWS','GitHub Actions'],'AI & Automation':['Vercel AI SDK','OpenAI','LangChain'],'Tools & Workflow':['Git','C++','Java (Computer Programming 1)']};
+'use strict';
+ // Editable content — TODO: confirm owner facts and add missing artifacts
+const skills= {
+  Frontend:['React','Next.js','TypeScript','JavaScript','Tailwind CSS'],Backend:['Node.js','Express','Django','Python','MongoDB','PostgreSQL','Redis','GraphQL','Prisma'],'DevOps & Infrastructure':['Docker','AWS','GitHub Actions'],'AI & Automation':['Vercel AI SDK','OpenAI','LangChain'],'Tools & Workflow':['Git','C++','Java (Computer Programming 1)']
+};
 const projects=[
 ['Enterprise Subscription Management & Reminder System','Subscription lifecycle platform with serverless automation, multi-tenant support and enterprise-level security.','Node.js, Express, MongoDB, Mongoose, JWT, Upstash QStash','SAAS / BACKEND'],
 ['GoodMil Construction & Real Estate Website','Django site for a Nepali construction company with a dynamic CMS, advanced property search and animations.','Django, Python, JavaScript, jQuery, GSAP, AOS','FULL STACK'],
